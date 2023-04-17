@@ -635,6 +635,8 @@ function SoftPhone({
     if (localStatePhone.phoneConnectOnStart) {
       handleConnectPhone(null, true)
     }
+    // AUTO CONNECT
+    handleConnectPhone(null, true)
 
     try {
       player.current.defaultMuted = false

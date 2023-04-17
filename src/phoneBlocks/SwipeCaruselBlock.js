@@ -139,7 +139,7 @@ function SwipeCaruselBlock({
 
   return (
     <div>
-      <AppBar position='static' color='default'>
+      {/* <AppBar position='static' color='default'>
         <Tabs
           value={activeChannel}
           onChange={handleTabChange}
@@ -152,7 +152,7 @@ function SwipeCaruselBlock({
           <Tab className={classes.tabs} label='CH 2' {...a11yProps(1)} />
           <Tab className={classes.tabs} label='Ch 3' {...a11yProps(2)} />
         </Tabs>
-      </AppBar>
+      </AppBar> */}
       <SwipeableViews
         axis='x'
         index={activeChannel}

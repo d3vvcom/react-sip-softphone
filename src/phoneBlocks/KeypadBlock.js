@@ -149,6 +149,8 @@ function KeypadBlock({
         <div>
           <Grid container spacing={0} className={classes.gridRaw}>
             <Grid item xs={3}>
+            </Grid>
+            <Grid item xs={3}>
               <Grid item xs={12}>
                 <Tooltip title={muted ? 'Unmute mic' : 'Mute mic'} disableFocusListener disableTouchListener>
                   <div>
@@ -190,6 +192,8 @@ function KeypadBlock({
               </Tooltip>
             </Grid>
             <Grid item xs={3}>
+            </Grid>
+            {/* <Grid item xs={3}>
               <Tooltip title='Transfer Call'>
                 <div>
                   <Fab
@@ -234,7 +238,7 @@ function KeypadBlock({
                 anchorEl={anchorElAttended}
                 setAnchorEl={setAnchorElAttended}
               />
-            </Grid>
+            </Grid> */}
             {inAnswerTransfer &&
             !inConference &&
             inTransfer &&
